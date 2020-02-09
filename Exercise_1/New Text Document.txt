@@ -1,0 +1,14 @@
+Hi 
+Can you please provide more details about following queries from the task T1.2
+a) extracting data by attribute filtering
+data_extracted1 = ...
+print(data_extracted1.head(1))
+Question : Which attribute we need to filter on. Can we choose any column or row attribute, i.e. column attribute like OBSERVATION_COUNT>2, create a data set of all rows having this attribute, save it in data_extracted1.
+b) # reset the index of data_extracted1 after filtering
+data_reindexed = ...
+print(data_reindexed.head(1))
+Question : Does this task mean that  in data_extracted1, which contains various rows belonging to first attribute, we reset the row numbers from 0---n.
+c) delete columns completely by using df.drop()
+data_deleting = ...
+print(data_deleting.head(1))
+Question : Can we delete 
